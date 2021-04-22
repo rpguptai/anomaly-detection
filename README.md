@@ -37,6 +37,8 @@ source ./localEnv/bin/activate
 Install library locally to localEnv
 
 ```
+pip3 install -U wheel
+
 python3 -m pip install -r requirements.txt
 
 ```
