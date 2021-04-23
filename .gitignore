@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+prophet-module/localEnv
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
