@@ -155,7 +155,7 @@ def query_metric_values(metricnames):
 
 def write2csv(metricnames, dataset):
     filename = time.strftime("%d-%m-%Y")+".csv"
-    with open(filename, 'w') as file:
+    with open("data/"+filename, 'w') as file:
         writer = csv.writer(file)
         writer.writerow(['timestamp'] + metricnames)
         for timestamp in sorted(dataset.keys(), reverse=True):
